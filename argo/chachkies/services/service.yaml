@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chachkies-service
+spec:
+  type: ClusterIP
+  selector:
+    app: chachkies
+  ports:
+  - port: 3000
+    targetPort: chachkies 
+    
+  

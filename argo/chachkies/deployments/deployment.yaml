@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chachkies-deployment
+spec:
+  selector:
+    matchLabels:
+      app: chachkies
+  template:
+    metadata:
+      labels:
+        app: chachkies
+    spec:
+      containers:
+      - name: chachkies
+        image: harbor-repo.vmware.com/build_service/chachkies
+        resources:
+          requests:
+            memory: "640Mi"
+            cpu: "800m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
+        ports:
+        - containerPort: 8080
+          name: chachkies
