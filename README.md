@@ -7,7 +7,7 @@
 
 Follow instructions in [Getting Started with TBS](https://tanzu.vmware.com/content/blog/getting-started-with-vmware-tanzu-build-service-1-0)
 
-## Inatall TBS
+## Install TBS
 
 ```bash
 kbld relocate -f images.lock --lock-output images-relocated.lock --repository harbor-repo.vmware.com/build_service/build-service
