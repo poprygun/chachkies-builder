@@ -50,5 +50,7 @@ watch kp build list chachkies
 ## Resources
 
 [Harbor As A Service](https://confluence.eng.vmware.com/display/AO/Harbor+as+a+Service)
+
 [Getting Started with TBS](https://tanzu.vmware.com/content/blog/getting-started-with-vmware-tanzu-build-service-1-0)
+
 [Installing TBS](https://docs.pivotal.io/build-service/1-0/installing.html)
